@@ -1,15 +1,11 @@
 <template>
-  <div class="home">
-    <h1>This is home page</h1>
-    <MessageDisplay />
-  </div>
+  <MessageDisplay />
 </template>
 
 <script>
 import MessageDisplay from '@/components/MessageDisplay.vue';
-
 export default {
-  name: 'home',
+  name: 'MessageContainer',
 
   components: {
     MessageDisplay,
